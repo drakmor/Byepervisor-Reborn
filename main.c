@@ -319,7 +319,7 @@ int main(void)
     }
 
     printf("[+] Hook installed, enter sleep and resume!\n");
-    notifyf("Byepervisor Reborn\nEntering rest mode for in 3 secs\n");
+    notifyf("Byepervisor Reborn\nEntering rest mode in 3 secs\n");
     sleep(3);
     sceSystemStateMgrEnterStandby();
   } else {
